@@ -9,39 +9,45 @@ body {
 
 /* nav style */
 
+span img {
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#nav {
+    margin-left: 50px;
+}
 
 #nav ul {
     list-style: none;
-    text-align: center;
-    margin: 0;
-
 }
 
 #nav li {
-    display: inline-block;
-    padding-left: 80px;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-
-
+    float: right;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
 }
 
 #nav a {
-    color: rgb(146, 82, 82);
-
+    color: rgb(0, 0, 0);
 }
 
 /* main page photo and header styiling */
 
 /* #page-one-photo img {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 
 }
 
 #page-one-heading h1 {
-    font-size: 150px;
-    float: right;
-    margin-right: 20%;
-    margin-top: 20%;
+  font-size: 150px;
+  float: right;
+  margin-right: 20%;
+  margin-top: 20%;
 } */
