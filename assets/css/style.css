@@ -9,19 +9,10 @@ body {
 
 /* nav style */
 
-#nav {
-    background-color: #485a70;
-
-}
-
-#nav h1 {
-    color: #fff;
-}
 
 #nav ul {
     list-style: none;
     text-align: center;
-    padding: 25px;
     margin: 0;
 
 }
@@ -32,10 +23,11 @@ body {
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
 
+
 }
 
 #nav a {
-    color: #fff;
+    color: rgb(146, 82, 82);
 
 }
 
