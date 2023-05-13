@@ -12,11 +12,17 @@ body {
 span img {
     width: 150px;
     height: 100px;
-    margin-left: 20px;
+
+}
+
+header {
+    background-color: #ced4da;
 }
 
 #nav {
     margin-left: 50px;
+
+
 }
 
 #nav ul {
@@ -51,3 +57,20 @@ span img {
   margin-right: 20%;
   margin-top: 20%;
 } */
+
+
+/* foter style */
+
+footer {
+    background-color: #ced4da;
+}
+
+.footer-header {
+    text-align: center;
+}
+
+#social-media-links>div {
+   text-align: center;
+    display: inline-block;
+   
+}
