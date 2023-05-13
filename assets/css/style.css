@@ -3,7 +3,45 @@
     text-decoration: none;
 }
 
-#page-one-photo img {
+body {
+    margin: 0;
+}
+
+/* nav style */
+
+#nav {
+    background-color: #485a70;
+
+}
+
+#nav h1 {
+    color: #fff;
+}
+
+#nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+
+}
+
+#nav li {
+    display: inline-block;
+    padding-left: 80px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#nav a {
+    color: #fff;
+
+}
+
+/* main page photo and header styiling */
+
+/* #page-one-photo img {
     width: 50%;
     float: left;
 
@@ -14,4 +52,4 @@
     float: right;
     margin-right: 20%;
     margin-top: 20%;
-}
+} */
