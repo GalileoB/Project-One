@@ -54,11 +54,11 @@ float: right;
 margin-right: 20%;
 margin-top: 20%;
 } */
-
 /* foter style */
 
 footer {
     background-color: #ced4da;
+    padding: 25px;
 }
 
 .footer-header {
@@ -81,4 +81,8 @@ footer {
 
 .social-links a {
     color: black;
+}
+
+.info-table {
+    display: inline;
 }
