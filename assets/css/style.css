@@ -5,5 +5,13 @@
 
 #page-one-photo img {
     width: 50%;
+    float: left;
 
+}
+
+#page-one-heading h1 {
+    font-size: 150px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 20%;
 }
