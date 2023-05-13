@@ -12,7 +12,6 @@ body {
 span img {
     width: 150px;
     height: 100px;
-
 }
 
 header {
@@ -21,8 +20,6 @@ header {
 
 #nav {
     margin-left: 50px;
-
-
 }
 
 #nav ul {
@@ -46,18 +43,17 @@ header {
 /* main page photo and header styiling */
 
 /* #page-one-photo img {
-  width: 50%;
-  float: left;
+width: 50%;
+float: left;
 
 }
 
 #page-one-heading h1 {
-  font-size: 150px;
-  float: right;
-  margin-right: 20%;
-  margin-top: 20%;
+font-size: 150px;
+float: right;
+margin-right: 20%;
+margin-top: 20%;
 } */
-
 
 /* foter style */
 
@@ -67,10 +63,22 @@ footer {
 
 .footer-header {
     text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
 }
 
-#social-media-links>div {
-   text-align: center;
-    display: inline-block;
-   
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+    margin: 1%;
+    padding: 2%;
+    font-size: 30px;
+}
+
+.social-links a {
+    color: black;
 }
