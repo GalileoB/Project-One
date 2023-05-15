@@ -40,6 +40,11 @@ header {
     color: rgb(0, 0, 0);
 }
 
+
+#nav>ul :hover {
+    color: rgb(126, 124, 124);
+}
+
 /* main page photo and header styiling */
 
 .section-one {
@@ -96,6 +101,20 @@ footer {
     display: inline;
 }
 
-#nav>ul :hover {
-    color:rgb(126, 124, 124);
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 2px;
+}
+
+#photos {
+    margin-top: 20px;
+}
+
+#photos img {
+    width: 100%;
+    margin: 0.5px;
 }
