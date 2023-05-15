@@ -31,7 +31,7 @@ header {
     font-size: 30px;
     margin-left: 25px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
 }
@@ -42,18 +42,27 @@ header {
 
 /* main page photo and header styiling */
 
-/* #page-one-photo img {
-width: 50%;
-float: left;
-
+.section-one {
+    text-align: center;
+    display: inline;
 }
 
-#page-one-heading h1 {
-font-size: 150px;
-float: right;
-margin-right: 20%;
-margin-top: 20%;
-} */
+.section-one img {
+    width: 50%;
+}
+
+.section-one h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    float: right;
+    width: 50%;
+    margin-top: 25%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
 /* foter style */
 
 footer {
