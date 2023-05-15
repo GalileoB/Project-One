@@ -95,3 +95,7 @@ footer {
 .info-table {
     display: inline;
 }
+
+#nav>ul :hover {
+    color:rgb(126, 124, 124);
+}
