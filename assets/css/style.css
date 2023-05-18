@@ -219,4 +219,19 @@ input[type="submit"]:hover {
         clear: both;
     }
 
+
+
+    footer {
+        clear: both;
+        font-size: small;
+
+    }
+
+    footer h2 {
+        font-size: small;
+    }
+
+    footer a {
+        font-size: small;
+    }
 }
