@@ -5,9 +5,9 @@ I would linke to use this oppotunity and thank you for your time and for visitin
 Just a breif information about the website. 
 
 As you can see it has three pages, 
-Main page (index.html)
-Gallery page (gallery.html)
-Contact Us page (contact.html)
+Main page index.html
+Gallery page gallery.html
+Contact Us page contact.html
 
 General.
 
