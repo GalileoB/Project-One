@@ -178,6 +178,10 @@ input[type="submit"]:hover {
         clear: both;
     }
 
+    #nav a {
+        font-size: 20px;
+    }
+
     .section-one {
         display: block;
     }
@@ -211,20 +215,31 @@ input[type="submit"]:hover {
         font-size: large;
     }
 
+
 }
+
+/* media screen for less then 768 px */
 
 @media screen and (max-width: 768px) {
     #nav li {
         background-color: #ced4da;
-        clear: both;
+        display: flex;
+        float: right;
+        margin: 5px;
     }
 
+    #nav a {
+        font-size: 12px;
+    }
 
+    span img {
+        width: 75px;
+        height: 40px;
+        margin-right: 10px;
+    }
 
     footer {
         clear: both;
-        font-size: small;
-
     }
 
     footer h2 {
@@ -234,4 +249,5 @@ input[type="submit"]:hover {
     footer a {
         font-size: small;
     }
+
 }
