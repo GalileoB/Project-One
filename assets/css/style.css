@@ -53,6 +53,26 @@ header {
   margin: 0;
 }
 
+/* section two  */
+
+.section-two h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-two div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-two {
+  height: 300px;
+}
+
+.section-two div {
+  border: 1px solid black;
+}
+
 /* foter style */
 
 footer {
