@@ -60,17 +60,16 @@ header {
   text-transform: uppercase;
 }
 
-.section-two div {
+.stores {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  color: #ced4da;
+  text-transform: uppercase;
+  height: 200px;
 }
 
 .section-two {
   height: 300px;
-}
-
-.section-two div {
-  border: 1px solid black;
 }
 
 /* foter style */
