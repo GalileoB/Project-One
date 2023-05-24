@@ -142,14 +142,16 @@ footer {
   font-family: roboto, sans-serif;
 }
 
-.container h5 {
+.container h1 {
   margin: 0;
   padding: 0;
+  font-size: 15px;
 }
 
 .container p {
   margin: 0;
   padding: 0;
+  font-size: 12px;
 }
 
 .container img {
@@ -157,6 +159,11 @@ footer {
   height: 600p;
   border-radius: 10px;
   margin: 5px;
+}
+
+.container div {
+  padding-bottom: 50px;
+  margin-top: 20px;
 }
 
 /* form style on contact us page */
