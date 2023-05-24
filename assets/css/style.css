@@ -134,6 +134,31 @@ footer {
   margin: 0.5px;
 }
 
+/* product page */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-family: roboto, sans-serif;
+}
+
+.container h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.container p {
+  margin: 0;
+  padding: 0;
+}
+
+.container img {
+  width: 350px;
+  height: 600p;
+  border-radius: 10px;
+  margin: 5px;
+}
+
 /* form style on contact us page */
 
 .contact-form {
