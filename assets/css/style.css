@@ -46,7 +46,6 @@ header {
 
 /* main page photo and header styiling */
 
-/* to copy from here */
 .section-one h1 {
   width: 100%;
   height: 600px;
@@ -76,6 +75,10 @@ header {
   padding: 20px;
 }
 
+.section-two h2 {
+  padding-bottom: 30px;
+}
+
 .stores div {
   border: 1px solid #ced4da;
   padding: 40px;
@@ -83,6 +86,7 @@ header {
   border-radius: 5%;
   font-family: roboto sans-serif;
 }
+
 /* foter style */
 
 footer {
@@ -121,7 +125,7 @@ footer {
 #photos {
   clear: both;
   line-height: 0;
-  column-count: 5;
+  column-count: 4;
   column-gap: 2px;
 }
 
@@ -132,14 +136,20 @@ footer {
 #photos img {
   width: 100%;
   margin: 0.5px;
+  transition: 0.3s ease-in-out;
+}
+
+#photos img:hover {
+  width: 101%;
 }
 
 /* product page */
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: roboto, sans-serif;
+  margin-top: 30px;
 }
 
 .container h1 {
@@ -164,6 +174,7 @@ footer {
 .container div {
   padding-bottom: 50px;
   margin-top: 20px;
+  transition: 0.3s ease-in-out;
 }
 
 .container button {
@@ -171,11 +182,14 @@ footer {
   margin-top: 1rem;
   border: none;
   border-radius: 5px;
-  background-color: #0077b6;
+  background-color: #000000;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 12px;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+}
+
+.container button:hover {
+  background-color: #526f94;
 }
 
 .container a {
@@ -250,7 +264,6 @@ input[type="submit"]:hover {
   }
 
   .section-one img {
-    width: 80%;
     margin: auto;
     padding-top: 20px;
   }
@@ -261,6 +274,74 @@ input[type="submit"]:hover {
     text-align: center;
     margin-bottom: 12%;
     margin-top: 13%;
+  }
+
+  /* section two on main page */
+
+  .stores {
+    display: block;
+    border: none;
+  }
+
+  .stores div {
+    font-size: small;
+    border-radius: 0%;
+    text-align: center;
+  }
+
+  /* product page */
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: roboto, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .container p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .container div {
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .container button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+  }
+
+  .container button:hover {
+    background-color: #526f94;
+  }
+
+  .container a {
+    color: #fff;
   }
 
   /* gallery page  */
@@ -316,6 +397,62 @@ input[type="submit"]:hover {
     width: 75px;
     height: 40px;
     margin-right: 10px;
+  }
+
+  .sale-page {
+    text-align: center;
+  }
+
+  .container {
+    display: block;
+    align-items: center;
+    font-family: roboto, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .container p {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .container img {
+    width: 300px;
+    height: 700p;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  .container div {
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .container button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+  }
+
+  .container button:hover {
+    background-color: #526f94;
+  }
+
+  .container a {
+    color: #fff;
   }
 
   /* gallery page */
