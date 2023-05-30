@@ -364,6 +364,15 @@ input[type="submit"]:hover {
     font-size: 12px;
   }
 
+  .section-one h1 {
+    background: url(../images/main-page-photo.jpg) no-repeat center center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: #ced4da;
+  }
+
   span img {
     width: 75px;
     height: 40px;
